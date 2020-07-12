@@ -1,0 +1,19 @@
+{
+  "name": "cryptodex",
+  "version": "1.0.0",
+  "description": "CLI to get prices for crypto currencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhambattoo/cryptodex-cli.git"
+  },
+  "author": "shubhambattoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shubhambattoo/cryptodex-cli/issues"
+  },
+  "homepage": "https://github.com/shubhambattoo/cryptodex-cli#readme"
+}
