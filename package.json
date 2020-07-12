@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "CLI to get prices for crypto currencies",
   "main": "index.js",
+  "bin": "./bin/cryptodex.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/shubhambattoo/cryptodex-cli/issues"
   },
-  "homepage": "https://github.com/shubhambattoo/cryptodex-cli#readme"
+  "homepage": "https://github.com/shubhambattoo/cryptodex-cli#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "colors": "^1.4.0",
+    "commander": "^5.1.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.3.1"
+  }
 }
